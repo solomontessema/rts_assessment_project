@@ -1,0 +1,13 @@
+scikit-learn
+joblib
+numpy
+pandas
+jupyterlab
+ipykernel
+jupyterlab-latex
+jupyterlab-markup
+google-cloud-aiplatform 
+psycopg2-binary
+sec-edgar-downloader
+streamlit
+streamlit-chat
