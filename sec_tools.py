@@ -4,7 +4,7 @@ import os
 def fetch_sec_filings(ticker: str):
     """Downloads the latest 10-K (Annual Report) for a given ticker."""
     # Initialize the downloader with your info (SEC requirement)
-    dl = Downloader("MyCompany", "my.email@example.com")
+    dl = Downloader("SolomonProject", "solomon.tessema@outlook.com")
     
     # Download the 10-K to a folder named 'sec-edgar-filings'
     # 'after' ensures we get recent data

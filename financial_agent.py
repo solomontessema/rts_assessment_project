@@ -37,7 +37,7 @@ def get_property_financials(metro_area: str):
 # In a real scenario, you'd use the ADK wrapper, 
 # but here is the logic for the Gemini model integration
 
-def ask_financial_sage(user_query):
+def ask_financial_agent(user_query):
     if "ticker" in user_query.lower() or "sec" in user_query.lower():
         # Step 1: Extract ticker (e.g., 'AAPL')
         # Step 2: Call the SEC Scraper
